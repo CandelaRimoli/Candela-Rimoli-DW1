@@ -1,0 +1,233 @@
+body {
+    background: #b5b8ff;
+    background: radial-gradient(circle, rgb(188, 210, 255) 0%, rgb(255, 215, 201) 100%);
+    text-align: start;
+    width: 100%;
+    margin: 0px;
+}
+
+.contenido {
+    margin: 0px 10%;
+}
+
+header {
+    height: 150px;
+    background-image: url(../imagenes/channels4_banner.jpg);
+    vertical-align: middle;
+    background-position: 700px;
+    position: static;
+    width: 100%;
+}
+
+main {
+    width: 60%;
+    text-align: center;
+    float: left;
+    flex: 2;
+}
+
+.principal {
+    padding-top: 40px;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    position: static;
+    font-family: "Emblema One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 1vw;
+    margin-top: 0px;
+    font-size: 40px;
+    padding-top: 15px;
+}
+
+h2 {
+    font-family: "Emblema One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #1d3069;
+    text-align: center;
+    margin: 1vw;
+    padding: 10px;
+    font-size: 30px;
+}
+
+p {
+    margin: 0px 30px;
+    padding: 1px 4vw;
+    font-size: 19px;
+}
+
+#spotify{
+    font-size: 20px;
+}
+h3 {
+    margin: 30px 30px 5px;
+}
+
+ol {
+    margin: 0px 30%;
+}
+
+a {
+    color: #1d3069;
+    text-decoration: none;
+}
+a:hover{
+    color: #f39b60;
+}
+.boton {
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+article {
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: content-box;
+}
+
+section{
+    background-color: #f0f8ff5d;
+    border: solid color(from color srgb r g b);
+    border-radius: 40px;
+    margin-bottom: 5px;
+}
+
+.fa-brands {
+    color: #f39b60;
+    font-size: 40px;
+}
+.fa-brands:hover{
+    transform: scale(1.2);
+    color:#e9aae9;
+}
+.practicando {
+    color: darkmagenta;
+}
+
+nav {
+    background-color: #ffffff33;
+    padding-left: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.main {
+    display: flex;
+    vertical-align: middle;
+    width: 100%;
+    position: static;
+}
+
+aside {
+    width: 400px;
+    background-color: #f0f8ff5d;
+    border: solid color(from color srgb r g b);
+    border-radius: 40px;
+    margin: 0px 10px;
+    padding: 10px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    flex: 1;
+}
+
+footer {
+    background-color: #1d3069;
+    display: block;
+    unicode-bidi: isolate;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.blanquito {
+    color: azure;
+    padding: 0px 0px 25px 0px;
+}
+
+.letra {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.chicos {
+    text-align: center;
+    margin: 20px;
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    box-sizing: content-box;
+    display: block;
+    padding: 0px 40px;
+}
+
+.chicos img:hover {
+    transform: scale(1.1);
+}
+
+.chicos img {
+    box-shadow: 20px #1d306948;
+}
+
+.integrantes {
+    text-align: center;
+    padding: 10px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 0px 0px 30px 30px;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .main {
+        justify-content: center;
+        /* centra horizontalmente */
+        align-items: center;
+    }
+
+    #carouselExample {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 375px) {
+    .listado {
+        width: 100% !important;
+    }
+    p{
+        font-size: 15px;
+    } 
+   
+}
+
+@media (max-width: 1347px){
+     .principal{
+        flex-direction: column;
+        align-items: center;
+    }
+    .carousel{
+        align-items: center;
+    }
+    #carouselExample{
+        align-items: center;
+    }
+}
+.carousel {
+    width: 600px;
+}
+
+#carouselExample {
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+}
